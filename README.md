@@ -10,4 +10,4 @@ Prerequisites include:
 
 Usage:
 
-  python3 onmt_cp.py yaml_args/copy_network.yaml
+    python3 onmt_cp.py yaml_args/copy_network.yaml
