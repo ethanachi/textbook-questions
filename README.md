@@ -11,3 +11,5 @@ Prerequisites include:
 Usage:
 
     python3 main.py yaml_args/copy_network.yaml
+
+**Data for this project**, along with predicted questions, is available in `squad.tsv` and `tqa_transfer.tsv`.  Note that you may have to scroll right in `tqa_transfer.tsv` in order to view the questions.
