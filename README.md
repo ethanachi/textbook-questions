@@ -1,6 +1,6 @@
 # Textbook Question Generation
 
-This repository contains code for our CS 221 final project, *Automatic Quiz Question Generation from Textbooks*.  
+This repository contains code for our CS 221 final project, *Automatic Quiz Question Generation from Textbooks*.  The code is built in PyTorch using elements from the OpenNMT framework.
 
 Prerequisites include:
 - pytorch==1.3.1
@@ -10,4 +10,4 @@ Prerequisites include:
 
 Usage:
 
-    python3 onmt_cp.py yaml_args/copy_network.yaml
+    python3 main.py yaml_args/copy_network.yaml
