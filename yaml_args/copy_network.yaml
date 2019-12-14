@@ -1,0 +1,21 @@
+data:
+    root: data/
+    train_path: data.train.0.pt
+    valid_path: data.valid.0.pt
+    vocab_path: data.vocab.pt
+use_pretrained: true
+embeddings:
+    root: emb/
+    vecs_enc: embeddings.enc.pt
+    vecs_dec: embeddings.dec.pt
+    size: 100
+rnn:
+    rnn_type: LSTM
+    rnn_size: 500
+    bidirectional: true
+reporting:
+    num_epochs: 40000
+    report_every: 2000
+    verbose: True
+learning_rate: 0.15
+save_path: out.params
